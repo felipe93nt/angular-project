@@ -1,0 +1,14 @@
+<header>
+    <svg class="bi bi-person" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  </svg>
+    <svg class="bi bi-power float-right mx-3" routerLink='' (click)="removerToken()" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M5.578 4.437a5 5 0 1 0 4.922.044l.5-.866a6 6 0 1 1-5.908-.053l.486.875z"/>
+    <path fill-rule="evenodd" d="M7.5 8V1h1v7h-1z"/>
+  </svg>
+</header>
+<li class="list-group-item list-group-item-primary name" [ngStyle]="{'text-align':'center'}">{{usuario.name}}</li>
+<li class="list-group-item list-group-item-primary" [ngStyle]="{'text-align':'center'}">{{usuario.email}}</li>
+<li class="list-group-item list-group-item-primary" [ngStyle]="{'text-align':'center'}">{{usuario.id}}</li>
+<li class="list-group-item list-group-item-primary" [ngStyle]="{'text-align':'center'}">{{usuario.idEmpresa}}</li>
+<li class="list-group-item list-group-item-primary" [ngStyle]="{'text-align':'center'}">{{usuario.role}}</li>

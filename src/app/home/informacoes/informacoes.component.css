@@ -1,0 +1,14 @@
+li {
+    width: 20%;
+    margin-left: 40%;
+}
+
+header {
+    height: 7em;
+    padding-top: 2em;
+    background-image: linear-gradient(to bottom, #2317aa, #261bab, #291eac, #2c21ad, #2f24ae);
+}
+
+.name {
+    margin-top: 5%;
+}

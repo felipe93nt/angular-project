@@ -1,0 +1,48 @@
+        header {
+            height: 7em;
+            background-image: linear-gradient(to bottom, #2317aa, #261bab, #291eac, #2c21ad, #2f24ae);
+        }
+
+        form {
+            margin-top: 5%;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+        .mensagemErro {
+            text-align: center;
+            color: rgb(255, 8, 8);
+        }
+
+        input {
+            border-color: #261bab;
+            border-width: 2px;
+            border-radius: 15px;
+            color: #2115a7;
+            font-size: large;
+        }
+
+        button {
+            background-image: linear-gradient(to bottom, #3030bc, #3031b1, #3031a7, #31319c, #313192);
+            color: white;
+            border-color: white;
+            border-width: 2px;
+            border-radius: 15px;
+            width: 100%;
+            margin-top: 10px;
+            font-size: large;
+        }
+
+        button:hover {
+            background-image: linear-gradient(to right top, #3434cb, #3536c3, #3637bc, #3838b4, #3939ac);
+            color: white;
+            font-size: large;
+        }
+
+        label {
+            color: #313192;
+        }
+
+        .bi-lock {
+            margin-top: 1em;
+        }
