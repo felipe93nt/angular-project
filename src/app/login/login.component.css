@@ -1,6 +1,9 @@
         header {
             height: 7em;
             background-image: linear-gradient(to bottom, #2317aa, #261bab, #291eac, #2c21ad, #2f24ae);
+            border-style: solid;
+            border-color: rgb(218, 218, 218);
+            border-width: 0px 0px 5px 0px;
         }
 
         form {
@@ -43,6 +46,7 @@
             color: #313192;
         }
 
-        .bi-lock {
-            margin-top: 1em;
+        .fa-sign-in {
+            margin-top: 0.2em;
+            margin-left: 0.2em;
         }

@@ -9,13 +9,13 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  user:any = {email:"",password:""}
-  token:string = "";
-  validUser:boolean = false;
-  retorno:any;
+  user: any = {email: '',password: ''}
+  token = '';
+  validUser = false;
+  retorno: any;
   usuario: any = {email: '', name: '', id: '', idEmpresa: '', role: ''};
 
-  constructor(private loginService:LoginService,private rota:Router) { }
+  constructor(private loginService: LoginService, private rota: Router) { }
 
   ngOnInit(): void {
   }

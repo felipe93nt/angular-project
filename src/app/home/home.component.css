@@ -9,9 +9,12 @@ a {
 .navbar {
     background-image: linear-gradient(to bottom, #2317aa, #261bab, #291eac, #2c21ad, #2f24ae);
     height: 7em;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-width: 0px 0px 5px 0px;
 }
 
-.bi-house {
-    position: relative;
-    margin-right: auto;
+.fa-sign-in {
+    margin-top: 0.2em;
+    margin-left: 0.2em;
 }
